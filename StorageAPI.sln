@@ -1,0 +1,35 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StorageAPI", "StorageAPI\StorageAPI.csproj", "{B8D17526-1F5A-459A-938C-268809E7CD41}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Storage.Core", "Storage.Core\Storage.Core.csproj", "{0860C328-9244-4B83-82A5-BF21648E98D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Storage.S3", "Storage.S3\Storage.S3.csproj", "{19B83840-1F56-45DC-B63A-FE8E3FDD88AC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Storage.S3.Tests", "Storage.S3.Tests\Storage.S3.Tests.csproj", "{D403A41B-C32C-4197-8FE0-3F518B66206E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B8D17526-1F5A-459A-938C-268809E7CD41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8D17526-1F5A-459A-938C-268809E7CD41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8D17526-1F5A-459A-938C-268809E7CD41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8D17526-1F5A-459A-938C-268809E7CD41}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0860C328-9244-4B83-82A5-BF21648E98D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0860C328-9244-4B83-82A5-BF21648E98D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0860C328-9244-4B83-82A5-BF21648E98D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0860C328-9244-4B83-82A5-BF21648E98D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19B83840-1F56-45DC-B63A-FE8E3FDD88AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19B83840-1F56-45DC-B63A-FE8E3FDD88AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19B83840-1F56-45DC-B63A-FE8E3FDD88AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19B83840-1F56-45DC-B63A-FE8E3FDD88AC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D403A41B-C32C-4197-8FE0-3F518B66206E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D403A41B-C32C-4197-8FE0-3F518B66206E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D403A41B-C32C-4197-8FE0-3F518B66206E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D403A41B-C32C-4197-8FE0-3F518B66206E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

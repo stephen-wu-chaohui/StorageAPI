@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Class1.cs" />
+    <Compile Remove="Communication\StorageResponse.cs" />
+    <Compile Remove="Communication\ListRequest.cs" />
+    <Compile Remove="Communication\UploadRequest.cs" />
+    <Compile Remove="Communication\UploadRequest.cs" />
+    <Compile Remove="Communication\ListRequest.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Communication\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Http" Version="2.2.2" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.2.0" />
+    <PackageReference Include="xunit" Version="2.4.0" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.4.0" />
+    <PackageReference Include="AWSSDK.S3" Version="3.3.106.6" />
+    <PackageReference Include="Moq" Version="4.13.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Http.Features" Version="3.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="MockedAmazonS3Client.cs" />
+    <Compile Remove="AmazonS3Stub.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Storage.S3\Storage.S3.csproj" />
+    <ProjectReference Include="..\Storage.Core\Storage.Core.csproj" />
+  </ItemGroup>
+</Project>
