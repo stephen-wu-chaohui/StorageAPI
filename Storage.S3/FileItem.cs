@@ -11,6 +11,5 @@ namespace Storage.S3
 
         public long Size { get; set; }
 
-        public string ResourceLocation { get; set; }
     }
 }

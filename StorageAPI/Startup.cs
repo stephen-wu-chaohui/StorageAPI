@@ -11,6 +11,8 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Amazon.S3;
+using Storage.Core;
+using Storage.S3;
 
 namespace StorageAPI
 {
@@ -28,6 +30,8 @@ namespace StorageAPI
         {
             services.AddAWSService<IAmazonS3>(Configuration.GetAWSOptions());
             services.AddControllers();
+
+            services.AddScoped<ICloudStorage, S3CloudStorage>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

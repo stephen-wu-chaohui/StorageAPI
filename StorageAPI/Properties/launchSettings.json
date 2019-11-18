@@ -20,7 +20,7 @@
     "StorageAPI": {
       "commandName": "Project",
       "launchBrowser": true,
-      "launchUrl": "weatherforecast",
+      "launchUrl": "api/files/for-pushpay-doc",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       },

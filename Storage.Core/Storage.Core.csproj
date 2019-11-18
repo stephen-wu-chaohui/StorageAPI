@@ -11,6 +11,9 @@
     <Compile Remove="Communication\UploadRequest.cs" />
     <Compile Remove="Communication\UploadRequest.cs" />
     <Compile Remove="Communication\ListRequest.cs" />
+    <Compile Remove="Communication\SetBucketResponse.cs" />
+    <Compile Remove="Communication\IResponseBase.cs" />
+    <Compile Remove="FileStorageException.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Communication\" />

@@ -7,6 +7,7 @@
   <ItemGroup>
     <Compile Remove="IFileItem.cs" />
     <Compile Remove="Class1.cs" />
+    <Compile Remove="FormFile.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Storage.Core\Storage.Core.csproj" />

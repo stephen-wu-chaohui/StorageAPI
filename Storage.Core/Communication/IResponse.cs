@@ -3,9 +3,9 @@ using System.Net;
 
 namespace Storage.Core
 {
-    public interface IResponseBase
+    public interface IResponse
     {
+        ServiceStatusCode StatusCode { get; }
         HttpStatusCode HttpStatusCode { get; }
-        CSCode ReturnCode { get; }
     }
 }
